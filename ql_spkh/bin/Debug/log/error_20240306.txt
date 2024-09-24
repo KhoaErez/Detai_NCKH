@@ -1,0 +1,22 @@
+[2024-03-06 09:54:47] ERROR: Load version Warning (Warning)
+[2024-03-06 09:55:53] ERROR: String or binary data would be truncated in table 'ql_da_nckh.dbo.activitylog', column 'details'. Truncated value: 'Username ad, CREATE đề tài khoa học title: Xây dựng ứng dụng quản lý, tra cứu và đánh giá mức độ trù'.
+The statement has been terminated.
+[2024-03-06 09:56:36] ERROR: There is no row at position 0.
+[2024-03-06 09:56:36] ERROR: Load version Warning (Warning)
+[2024-03-06 10:01:30] ERROR: There is no row at position 0.
+[2024-03-06 10:01:30] ERROR: Load version Warning (Warning)
+[2024-03-06 10:02:26] ERROR: There is no row at position 0.
+[2024-03-06 10:02:26] ERROR: Load version Warning (Warning)
+[2024-03-06 10:27:23] ERROR: Load version Warning (Warning)
+[2024-03-06 10:27:40] ERROR: There is no row at position 0.
+[2024-03-06 10:27:40] ERROR: Load version Warning (Warning)
+[2024-03-06 10:32:32] ERROR: Load version Warning (Warning)
+[2024-03-06 19:07:45] ERROR: There is no row at position 0.
+[2024-03-06 19:07:56] ERROR: There is no row at position 0.
+[2024-03-06 19:09:04] ERROR: There is no row at position 0.
+[2024-03-06 19:14:14] ERROR: There is no row at position 0.
+[2024-03-06 19:14:21] ERROR: There is no row at position 0.
+[2024-03-06 19:14:21] ERROR: Load version Warning (Warning)
+[2024-03-06 19:22:15] ERROR: There is no row at position 0.
+[2024-03-06 19:22:15] ERROR: Load version Warning (Warning)
+[2024-03-06 19:22:31] ERROR: There is no row at position 0.

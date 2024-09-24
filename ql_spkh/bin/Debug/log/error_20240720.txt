@@ -1,0 +1,12 @@
+[2024-07-20 14:22:31] ERROR: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_activitylog_users". The conflict occurred in database "ql_da_nckh", table "dbo.users", column 'userid'.
+The statement has been terminated.
+[2024-07-20 14:22:33] ERROR: There is no row at position 0.
+[2024-07-20 14:23:00] ERROR: There is no row at position 0.
+[2024-07-20 14:23:03] ERROR: There is no row at position 0.
+[2024-07-20 14:23:30] ERROR: There is no row at position 0.
+[2024-07-20 14:23:34] ERROR: Incorrect syntax near '='.
+[2024-07-20 14:23:35] ERROR: Incorrect syntax near '='.
+[2024-07-20 14:23:38] ERROR: Incorrect syntax near '='.
+[2024-07-20 14:23:41] ERROR: There is no row at position 0.
+[2024-07-20 14:24:43] ERROR: There is no row at position 0.
+[2024-07-20 14:24:45] ERROR: There is no row at position 0.

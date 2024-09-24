@@ -1,0 +1,26 @@
+[2024-03-05 22:22:19] ERROR: String or binary data would be truncated in table 'ql_da_nckh.dbo.activitylog', column 'details'. Truncated value: 'Username ad, CREATE đề tài khoa học title: test du lieu 40 trang khoa luan, id: 32, khoa: 1, giảng v'.
+The statement has been terminated.
+[2024-03-05 22:22:26] ERROR: There is no row at position 0.
+[2024-03-05 22:22:26] ERROR: Load version Warning (Warning)
+[2024-03-05 22:28:45] ERROR: There is no row at position 0.
+[2024-03-05 22:28:45] ERROR: Load version Warning (Warning)
+[2024-03-05 22:31:41] ERROR: The message filter indicated that the application is busy. (Exception from HRESULT: 0x8001010A (RPC_E_SERVERCALL_RETRYLATER))
+[2024-03-05 22:33:25] ERROR: There is no row at position 0.
+[2024-03-05 22:33:25] ERROR: Load version Warning (Warning)
+[2024-03-05 22:51:09] ERROR: Load version Warning (Warning)
+[2024-03-05 22:53:23] ERROR: There is no row at position 0.
+[2024-03-05 22:53:23] ERROR: Load version Warning (Warning)
+[2024-03-05 22:54:06] ERROR: String or binary data would be truncated in table 'ql_da_nckh.dbo.activitylog', column 'details'. Truncated value: 'Username ad, Xóa project có id: 32, title: test du lieu 40 trang khoa luan, Khoa: Công nghệ thông ti'.
+The statement has been terminated.
+[2024-03-05 22:54:34] ERROR: There is no row at position 0.
+[2024-03-05 22:54:34] ERROR: Load version Warning (Warning)
+[2024-03-05 22:54:45] ERROR: String or binary data would be truncated in table 'ql_da_nckh.dbo.activitylog', column 'details'. Truncated value: 'Username ad, Xóa project có id: 31, title: Danh sach cau hoi.docx, Khoa: Công nghệ thông tin, giang '.
+The statement has been terminated.
+[2024-03-05 23:01:48] ERROR: There is no row at position 0.
+[2024-03-05 23:01:48] ERROR: Load version Warning (Warning)
+[2024-03-05 23:02:13] ERROR: String or binary data would be truncated in table 'ql_da_nckh.dbo.activitylog', column 'details'. Truncated value: 'Username ad, Xóa project có id: 29, title: PHIẾU ĐĂNG KÝ ĐỀ TÀI, Khoa: Công nghệ thông tin, giang vi'.
+The statement has been terminated.
+[2024-03-05 23:02:44] ERROR: There is no row at position 0.
+[2024-03-05 23:02:44] ERROR: Load version Warning (Warning)
+[2024-03-05 23:03:02] ERROR: String or binary data would be truncated in table 'ql_da_nckh.dbo.activitylog', column 'details'. Truncated value: 'Username ad, Xóa project có id: 28, title: Xây dựng ứng dụng quản lý, tra cứu và đánh giá độ tương đ'.
+The statement has been terminated.

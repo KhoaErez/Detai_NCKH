@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C2483F43-A313-40E7-A143-9EC9C39258EC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ql_spkh</RootNamespace>
+    <AssemblyName>ql_spkh</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autofac, Version=8.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.8.0.0\lib\netstandard2.0\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net48\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.7.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Word.15.0.4797.1004\lib\net20\Microsoft.Office.Interop.Word.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=7.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.7.0.2\lib\net462\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Levenshtein\ILevenshtein.cs" />
+    <Compile Include="Levenshtein\IUnicodeNormalizer.cs" />
+    <Compile Include="Levenshtein\Levenshtein.cs" />
+    <Compile Include="Levenshtein\LevenshteinRun.cs" />
+    <Compile Include="Levenshtein\UnicodeNormalizer.cs" />
+    <Compile Include="View\frmChon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmChon.Designer.cs">
+      <DependentUpon>frmChon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmChonDT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmChonDT.Designer.cs">
+      <DependentUpon>frmChonDT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\database.cs" />
+    <Compile Include="Model\logError.cs" />
+    <Compile Include="Model\parameter.cs" />
+    <Compile Include="Model\user.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\frmCore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmCore.Designer.cs">
+      <DependentUpon>frmCore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmCoreTD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmCoreTD.Designer.cs">
+      <DependentUpon>frmCoreTD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmGV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmGV.Designer.cs">
+      <DependentUpon>frmGV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmGV_U.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmGV_U.Designer.cs">
+      <DependentUpon>frmGV_U.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmHTR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmHTR.Designer.cs">
+      <DependentUpon>frmHTR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmSPKH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmSPKH.Designer.cs">
+      <DependentUpon>frmSPKH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmSV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmSV.Designer.cs">
+      <DependentUpon>frmSV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmSV_U.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmSV_U.Designer.cs">
+      <DependentUpon>frmSV_U.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmTK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmTK.Designer.cs">
+      <DependentUpon>frmTK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmTK_N.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmTK_N.Designer.cs">
+      <DependentUpon>frmTK_N.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmTK_U.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmTK_U.Designer.cs">
+      <DependentUpon>frmTK_U.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmVS_U.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmVS_U.Designer.cs">
+      <DependentUpon>frmVS_U.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\uc\UC_DG_C.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\uc\UC_DG_C.Designer.cs">
+      <DependentUpon>UC_DG_C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\uc\UC_DG_DT.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\uc\UC_DG_DT.Designer.cs">
+      <DependentUpon>UC_DG_DT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\uc\UC_HD.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\uc\UC_HD.Designer.cs">
+      <DependentUpon>UC_HD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\uc\UC_Khoa.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\uc\UC_Khoa.Designer.cs">
+      <DependentUpon>UC_Khoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\uc\UC_Khoa_U.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\uc\UC_Khoa_U.Designer.cs">
+      <DependentUpon>UC_Khoa_U.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\uc\UC_SPKH_DT.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\uc\UC_SPKH_DT.Designer.cs">
+      <DependentUpon>UC_SPKH_DT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\uc\UC_SPKH_N.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\uc\UC_SPKH_N.Designer.cs">
+      <DependentUpon>UC_SPKH_N.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\uc\UC_SPKH_VS.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\uc\UC_SPKH_VS.Designer.cs">
+      <DependentUpon>UC_SPKH_VS.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmChon.resx">
+      <DependentUpon>frmChon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmChonDT.resx">
+      <DependentUpon>frmChonDT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="View\frmCore.resx">
+      <DependentUpon>frmCore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmCoreTD.resx">
+      <DependentUpon>frmCoreTD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmGV.resx">
+      <DependentUpon>frmGV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmGV_U.resx">
+      <DependentUpon>frmGV_U.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmHTR.resx">
+      <DependentUpon>frmHTR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmSPKH.resx">
+      <DependentUpon>frmSPKH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmSV.resx">
+      <DependentUpon>frmSV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmSV_U.resx">
+      <DependentUpon>frmSV_U.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmTK.resx">
+      <DependentUpon>frmTK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmTK_N.resx">
+      <DependentUpon>frmTK_N.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmTK_U.resx">
+      <DependentUpon>frmTK_U.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmVS_U.resx">
+      <DependentUpon>frmVS_U.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\uc\UC_DG_C.resx">
+      <DependentUpon>UC_DG_C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\uc\UC_DG_DT.resx">
+      <DependentUpon>UC_DG_DT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\uc\UC_HD.resx">
+      <DependentUpon>UC_HD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\uc\UC_Khoa.resx">
+      <DependentUpon>UC_Khoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\uc\UC_Khoa_U.resx">
+      <DependentUpon>UC_Khoa_U.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\uc\UC_SPKH_DT.resx">
+      <DependentUpon>UC_SPKH_DT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\uc\UC_SPKH_N.resx">
+      <DependentUpon>UC_SPKH_N.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\uc\UC_SPKH_VS.resx">
+      <DependentUpon>UC_SPKH_VS.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Root\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

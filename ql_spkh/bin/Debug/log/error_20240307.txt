@@ -1,0 +1,128 @@
+[2024-03-07 08:56:52] ERROR: There is no row at position 0.
+[2024-03-07 08:56:52] ERROR: Load version Warning (Warning)
+[2024-03-07 08:57:16] ERROR: Load version Warning (Warning)
+[2024-03-07 09:09:37] ERROR: There is no row at position 0.
+[2024-03-07 14:15:49] ERROR: There is no row at position 0.
+[2024-03-07 14:16:08] ERROR: There is no row at position 0.
+[2024-03-07 14:16:09] ERROR: There is no row at position 0.
+[2024-03-07 14:16:11] ERROR: There is no row at position 0.
+[2024-03-07 14:16:11] ERROR: There is no row at position 0.
+[2024-03-07 14:16:13] ERROR: There is no row at position 0.
+[2024-03-07 14:17:17] ERROR: There is no row at position 0.
+[2024-03-07 14:17:39] ERROR: There is no row at position 0.
+[2024-03-07 14:20:07] ERROR: There is no row at position 0.
+[2024-03-07 14:39:11] ERROR: Cannot bulk load because the file "C:\Users\Admin\Desktop\nckh_sv\DataTest\Cơ Hội và Thách Thức của Các Doanh Nghiệp Trong Nước Khi Việt Nam Gia Nhập Cộng Đồng Kinh Tế ASEAN.docx" could not be opened. Operating system error code 32(The process cannot access the file because it is being used by another process.).
+[2024-03-07 14:41:50] ERROR: Cannot bulk load because the file "C:\Users\Admin\Desktop\nckh_sv\DataTest\Nâng cao về vai trò tín dụng ngân hàng đối với sự phát triển về kinh tế của các tỉnh Nam Bộ.docx" could not be opened. Operating system error code 32(The process cannot access the file because it is being used by another process.).
+[2024-03-07 14:41:53] ERROR: There is no row at position 0.
+[2024-03-07 14:43:43] ERROR: Cannot bulk load because the file "C:\Users\Admin\Desktop\nckh_sv\DataTest\null.docx" could not be opened. Operating system error code 32(The process cannot access the file because it is being used by another process.).
+[2024-03-07 14:44:04] ERROR: Cannot bulk load because the file "C:\Users\Admin\Desktop\nckh_sv\DataTest\null.docx" could not be opened. Operating system error code 32(The process cannot access the file because it is being used by another process.).
+[2024-03-07 14:44:16] ERROR: Cannot bulk load because the file "C:\Users\Admin\Desktop\nckh_sv\DataTest\null.docx" could not be opened. Operating system error code 32(The process cannot access the file because it is being used by another process.).
+[2024-03-07 14:44:42] ERROR: Cannot bulk load because the file "C:\Users\Admin\Desktop\nckh_sv\DataTest\null.docx" could not be opened. Operating system error code 32(The process cannot access the file because it is being used by another process.).
+[2024-03-07 14:46:04] ERROR: Cannot bulk load because the file "C:\Users\Admin\Desktop\nckh_sv\DataTest\Xây Dựng Hệ Thống Đăng Ký Môn Học và Tra Cứu Thông Tin Học Tập qua Dịch Vụ Short Message Service.docx" could not be opened. Operating system error code 32(The process cannot access the file because it is being used by another process.).
+[2024-03-07 14:47:27] ERROR: Cannot bulk load because the file "C:\Users\Admin\Desktop\nckh_sv\DataTest\Xây Dựng Hệ Thống Quản Lý Hoạt Động Của Phòng Thí Nghiệm và Thực Hành của Khoa CNTT.docx" could not be opened. Operating system error code 32(The process cannot access the file because it is being used by another process.).
+[2024-03-07 14:49:00] ERROR: Cannot bulk load because the file "C:\Users\Admin\Desktop\nckh_sv\DataTest\Hệ Thống Hỗ Trợ Tiếp Sức Mùa Thi.docx" could not be opened. Operating system error code 32(The process cannot access the file because it is being used by another process.).
+[2024-03-07 14:50:15] ERROR: Cannot bulk load because the file "C:\Users\Admin\Desktop\nckh_sv\DataTest\Xây Dựng Hệ Thống Chăm Sóc Thông Minh Cho Rau Cải Bẹ Xanh.docx" could not be opened. Operating system error code 32(The process cannot access the file because it is being used by another process.).
+[2024-03-07 14:51:52] ERROR: There is no row at position 0.
+[2024-03-07 14:51:52] ERROR: Load version Warning (Warning)
+[2024-03-07 14:52:40] ERROR: There is no row at position 0.
+[2024-03-07 14:52:45] ERROR: There is no row at position 0.
+[2024-03-07 14:52:45] ERROR: Load version Warning (Warning)
+[2024-03-07 14:52:45] ERROR: Unable to cast object of type 'System.DBNull' to type 'System.Byte[]'.
+[2024-03-07 16:09:00] ERROR: There is no row at position 0.
+[2024-03-07 16:09:00] ERROR: Load version Warning (Warning)
+[2024-03-07 16:09:55] ERROR: There is no row at position 0.
+[2024-03-07 16:09:55] ERROR: Load version Warning (Warning)
+[2024-03-07 16:13:54] ERROR: There is no row at position 0.
+[2024-03-07 16:13:54] ERROR: Load version Warning (Warning)
+[2024-03-07 16:14:02] ERROR: There is no row at position 0.
+[2024-03-07 16:14:02] ERROR: Load version Warning (Warning)
+[2024-03-07 16:14:02] ERROR: Unable to cast object of type 'System.DBNull' to type 'System.Byte[]'.
+[2024-03-07 16:14:06] ERROR: There is no row at position 0.
+[2024-03-07 16:14:06] ERROR: Load version Warning (Warning)
+[2024-03-07 16:14:06] ERROR: Unable to cast object of type 'System.DBNull' to type 'System.Byte[]'.
+[2024-03-07 16:14:12] ERROR: There is no row at position 0.
+[2024-03-07 16:14:12] ERROR: Load version Warning (Warning)
+[2024-03-07 16:14:12] ERROR: Unable to cast object of type 'System.DBNull' to type 'System.Byte[]'.
+[2024-03-07 16:14:21] ERROR: There is no row at position 0.
+[2024-03-07 16:14:21] ERROR: Load version Warning (Warning)
+[2024-03-07 16:14:21] ERROR: Unable to cast object of type 'System.DBNull' to type 'System.Byte[]'.
+[2024-03-07 16:14:31] ERROR: There is no row at position 0.
+[2024-03-07 16:14:31] ERROR: Load version Warning (Warning)
+[2024-03-07 16:14:40] ERROR: There is no row at position 0.
+[2024-03-07 16:14:40] ERROR: Load version Warning (Warning)
+[2024-03-07 16:14:40] ERROR: Unable to cast object of type 'System.DBNull' to type 'System.Byte[]'.
+[2024-03-07 16:14:46] ERROR: There is no row at position 0.
+[2024-03-07 16:14:46] ERROR: Load version Warning (Warning)
+[2024-03-07 16:14:46] ERROR: Unable to cast object of type 'System.DBNull' to type 'System.Byte[]'.
+[2024-03-07 16:14:53] ERROR: There is no row at position 0.
+[2024-03-07 16:14:53] ERROR: Load version Warning (Warning)
+[2024-03-07 16:14:53] ERROR: Unable to cast object of type 'System.DBNull' to type 'System.Byte[]'.
+[2024-03-07 16:14:57] ERROR: There is no row at position 0.
+[2024-03-07 16:14:57] ERROR: Load version Warning (Warning)
+[2024-03-07 16:14:57] ERROR: Unable to cast object of type 'System.DBNull' to type 'System.Byte[]'.
+[2024-03-07 16:15:12] ERROR: There is no row at position 0.
+[2024-03-07 16:15:12] ERROR: Load version Warning (Warning)
+[2024-03-07 16:15:12] ERROR: Unable to cast object of type 'System.DBNull' to type 'System.Byte[]'.
+[2024-03-07 16:15:18] ERROR: There is no row at position 0.
+[2024-03-07 16:15:18] ERROR: Load version Warning (Warning)
+[2024-03-07 16:15:19] ERROR: Unable to cast object of type 'System.DBNull' to type 'System.Byte[]'.
+[2024-03-07 16:15:34] ERROR: There is no row at position 0.
+[2024-03-07 16:15:38] ERROR: There is no row at position 0.
+[2024-03-07 16:15:38] ERROR: Load version Warning (Warning)
+[2024-03-07 16:15:38] ERROR: Unable to cast object of type 'System.DBNull' to type 'System.Byte[]'.
+[2024-03-07 16:15:43] ERROR: There is no row at position 0.
+[2024-03-07 16:15:43] ERROR: Load version Warning (Warning)
+[2024-03-07 16:15:44] ERROR: Unable to cast object of type 'System.DBNull' to type 'System.Byte[]'.
+[2024-03-07 16:15:48] ERROR: There is no row at position 0.
+[2024-03-07 16:15:48] ERROR: Load version Warning (Warning)
+[2024-03-07 16:15:48] ERROR: Unable to cast object of type 'System.DBNull' to type 'System.Byte[]'.
+[2024-03-07 16:15:55] ERROR: There is no row at position 0.
+[2024-03-07 16:15:55] ERROR: Load version Warning (Warning)
+[2024-03-07 16:15:55] ERROR: Unable to cast object of type 'System.DBNull' to type 'System.Byte[]'.
+[2024-03-07 16:16:00] ERROR: There is no row at position 0.
+[2024-03-07 16:16:00] ERROR: Load version Warning (Warning)
+[2024-03-07 16:16:00] ERROR: Unable to cast object of type 'System.DBNull' to type 'System.Byte[]'.
+[2024-03-07 16:18:46] ERROR: There is no row at position 0.
+[2024-03-07 16:18:51] ERROR: There is no row at position 0.
+[2024-03-07 16:18:51] ERROR: Load version Warning (Warning)
+[2024-03-07 16:20:29] ERROR: There is no row at position 0.
+[2024-03-07 16:21:21] ERROR: There is no row at position 0.
+[2024-03-07 16:22:05] ERROR: There is no row at position 0.
+[2024-03-07 16:22:05] ERROR: Load version Warning (Warning)
+[2024-03-07 16:22:05] ERROR: Unable to cast object of type 'System.DBNull' to type 'System.Byte[]'.
+[2024-03-07 16:22:18] ERROR: There is no row at position 0.
+[2024-03-07 16:22:18] ERROR: Load version Warning (Warning)
+[2024-03-07 16:22:18] ERROR: Unable to cast object of type 'System.DBNull' to type 'System.Byte[]'.
+[2024-03-07 16:22:23] ERROR: There is no row at position 0.
+[2024-03-07 16:22:23] ERROR: Load version Warning (Warning)
+[2024-03-07 16:22:33] ERROR: There is no row at position 0.
+[2024-03-07 16:22:33] ERROR: Load version Warning (Warning)
+[2024-03-07 16:23:54] ERROR: There is no row at position 0.
+[2024-03-07 16:23:54] ERROR: Load version Warning (Warning)
+[2024-03-07 16:25:01] ERROR: There is no row at position 0.
+[2024-03-07 16:25:01] ERROR: Load version Warning (Warning)
+[2024-03-07 16:25:22] ERROR: There is no row at position 0.
+[2024-03-07 16:25:22] ERROR: Load version Warning (Warning)
+[2024-03-07 16:25:31] ERROR: There is no row at position 0.
+[2024-03-07 16:25:31] ERROR: Load version Warning (Warning)
+[2024-03-07 16:28:29] ERROR: There is no row at position 0.
+[2024-03-07 16:28:29] ERROR: Load version Warning (Warning)
+[2024-03-07 16:28:42] ERROR: There is no row at position 0.
+[2024-03-07 16:28:42] ERROR: Load version Warning (Warning)
+[2024-03-07 19:26:19] ERROR: There is no row at position 0.
+[2024-03-07 19:26:29] ERROR: There is no row at position 0.
+[2024-03-07 19:26:29] ERROR: Load version Warning (Warning)
+[2024-03-07 19:27:56] ERROR: There is no row at position 0.
+[2024-03-07 19:27:56] ERROR: Load version Warning (Warning)
+[2024-03-07 19:29:04] ERROR: There is no row at position 0.
+[2024-03-07 19:29:04] ERROR: Load version Warning (Warning)
+[2024-03-07 20:55:47] ERROR: There is no row at position 0.
+[2024-03-07 20:55:47] ERROR: Load version Warning (Warning)
+[2024-03-07 20:56:49] ERROR: There is no row at position 0.
+[2024-03-07 20:56:49] ERROR: Load version Warning (Warning)
+[2024-03-07 20:57:27] ERROR: There is no row at position 0.
+[2024-03-07 20:57:27] ERROR: Load version Warning (Warning)
+[2024-03-07 20:57:35] ERROR: There is no row at position 0.
+[2024-03-07 20:57:35] ERROR: Load version Warning (Warning)
+[2024-03-07 20:57:59] ERROR: There is no row at position 0.
+[2024-03-07 20:57:59] ERROR: Load version Warning (Warning)

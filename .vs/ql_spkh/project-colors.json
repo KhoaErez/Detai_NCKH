@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c2483f43-a313-40e7-a143-9ec9c39258ec": {
+      "ProjectGuid": "c2483f43-a313-40e7-a143-9ec9c39258ec",
+      "DisplayName": "ql_spkh",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "2916bbc1-7e5c-4341-a6b4-516ad546994b": {
+      "ProjectGuid": "2916bbc1-7e5c-4341-a6b4-516ad546994b",
+      "DisplayName": "LevenshteinDemo",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
